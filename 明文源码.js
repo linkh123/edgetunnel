@@ -1,8 +1,8 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
-let proxyIP = '';
+let userID = 'de485652-8874-4b1e-be70-a7734d6d2a3c';
+let proxyIP = 'ts.hpc.tw';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
@@ -2214,4 +2214,5 @@ async function KV(request, env, txt = 'ADD.txt') {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
